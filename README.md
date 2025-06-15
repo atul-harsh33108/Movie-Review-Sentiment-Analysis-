@@ -40,4 +40,4 @@ files.download('tokenizer.pkl')
 ```
 
 > Follow up of this project is present here in this repo -> https://github.com/atul-harsh33108/movie-sentiment-app
-     In follow up project The extracted model is used For Prediction With extra Features Streamlit for frontend web app, Docker for containerization and virtulization, and jenkins for CI/CD pipline
+     In follow up project The extracted model is used For Prediction With extra Features like Streamlit for frontend web app, Docker for containerization and virtulization, and jenkins for CI/CD pipline
