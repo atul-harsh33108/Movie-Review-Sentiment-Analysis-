@@ -10,7 +10,7 @@
 
 
 > To extract the model for future use add following code snippet to the code
-'''ipynb
+'''python
 import joblib
 from google.colab import files
 
@@ -26,11 +26,11 @@ joblib.dump(tfidf, 'tfidf_vectorizer.pkl')
 joblib.dump(tokenizer, 'tokenizer.pkl')
 '''
 
-'''ipynb
+'''python
 !ls
 '''
 
-'''ipynb
+'''python
 # Download all saved files
 files.download('logistic_model.pkl')
 files.download('naive_bayes_model.pkl')
