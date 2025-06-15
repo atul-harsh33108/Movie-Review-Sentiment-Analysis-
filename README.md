@@ -10,7 +10,7 @@
 
 
 > To extract the model for future use add following code snippet to the code
-'''python
+```python
 import joblib
 from google.colab import files
 
@@ -24,18 +24,13 @@ model.save('lstm_model.h5')
 # Save preprocessing tools
 joblib.dump(tfidf, 'tfidf_vectorizer.pkl')
 joblib.dump(tokenizer, 'tokenizer.pkl')
-'''
 
-# To verify the saved files:
-'''python
 !ls
-'''
 
 # Download all saved files
-'''python
 files.download('logistic_model.pkl')
 files.download('naive_bayes_model.pkl')
 files.download('lstm_model.h5')
 files.download('tfidf_vectorizer.pkl')
 files.download('tokenizer.pkl')
-'''
+```
