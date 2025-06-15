@@ -26,12 +26,13 @@ joblib.dump(tfidf, 'tfidf_vectorizer.pkl')
 joblib.dump(tokenizer, 'tokenizer.pkl')
 '''
 
+# To verify the saved files:
 '''python
 !ls
 '''
 
-'''python
 # Download all saved files
+'''python
 files.download('logistic_model.pkl')
 files.download('naive_bayes_model.pkl')
 files.download('lstm_model.h5')
