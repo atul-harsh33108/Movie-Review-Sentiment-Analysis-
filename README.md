@@ -24,9 +24,13 @@ model.save('lstm_model.h5')
 # Save preprocessing tools
 joblib.dump(tfidf, 'tfidf_vectorizer.pkl')
 joblib.dump(tokenizer, 'tokenizer.pkl')
+```
 
+```python
 !ls
+```
 
+```python
 # Download all saved files
 files.download('logistic_model.pkl')
 files.download('naive_bayes_model.pkl')
